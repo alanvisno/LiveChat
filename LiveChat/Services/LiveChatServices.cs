@@ -131,6 +131,7 @@ namespace LiveChat.Services
                 this.SetMessage(_context, model);
                 //await chathub.Clients.All.SendAsync("Receive", model.userid, model.message);
 
+                await _context.SaveChangesAsync();
                 return await _context.Message
                     .Where(x => x.PrincipalId == principal.Id && x.SecondaryId == secondary.Id)
                     .ToListAsync();
@@ -169,6 +170,7 @@ namespace LiveChat.Services
                     this.SetMessage(_context, model);
                     //await chathub.Clients.All.SendAsync("Receive", model.userid, model.message);
 
+                    await _context.SaveChangesAsync();
                     return true;
                 }
             }
@@ -204,7 +206,6 @@ namespace LiveChat.Services
             if (contact.Message == null)
             {
                 contact.Message = message;
-                _context.SaveChanges();
             }
         }
         private void SetMessage(LiveChatContext _context, MessageModel model)
@@ -217,7 +218,6 @@ namespace LiveChat.Services
             message.String = model.message;
             message.Datetime = DateTime.Now;
             _context.Add(message);
-            _context.SaveChanges();
         }
 
         public bool CloseAccess(CloseModel model)

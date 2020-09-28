@@ -19,7 +19,6 @@ namespace LiveChat.Controllers
         //MVC with services layer
         LiveChatServices _context = LiveChatServices.Instance;
 
-
         //Added an initialization to get the "security code" as a temporal token
         [HttpGet("access")]
         public ActionResult<bool> Initialize(AccessModel model)
@@ -40,7 +39,7 @@ namespace LiveChat.Controllers
             }
         }
 
-        [HttpGet("init")]
+        [HttpPost("init")]
         public async Task<ActionResult<bool>> InitializeChat(MessageModel model)
         {
             //Validate model state
@@ -98,7 +97,7 @@ namespace LiveChat.Controllers
         }
 
         //Added a close method to delete the token and stop the flow.
-        [HttpGet("close")]
+        [HttpPost("close")]
         public ActionResult<bool> Close(CloseModel model)
         {
             //Validate model state
