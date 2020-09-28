@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XHNX3qc5L/sEWNkYyXxuJZgXdwkE5JoHyJCz07ilbCVEqBLCyKkcfOK9vksNED5BZnO927bYh9lBT5NCbq+zRg==",
+  "dgSpecHash": "Pd5qH0Pt4caRE5cs0d3ZUn5RB7QEgGiixy1jAoy2uAfrwx2WmeaRaRlaM2YJMKEocJb4uNvn1mA6keJS1u+cIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\LiveChat.csproj",
+  "projectFilePath": "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\LiveChat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan Visnovezky\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alan Visnovezky\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

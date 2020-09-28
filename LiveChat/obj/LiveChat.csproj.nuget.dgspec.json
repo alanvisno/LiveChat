@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\LiveChat.csproj": {}
+    "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\LiveChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\LiveChat.csproj": {
+    "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\LiveChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\LiveChat.csproj",
+        "projectUniqueName": "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\LiveChat.csproj",
         "projectName": "LiveChat",
-        "projectPath": "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\LiveChat.csproj",
+        "projectPath": "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\LiveChat.csproj",
         "packagesPath": "C:\\Users\\Alan Visnovezky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan Visnovezky\\Denmark\\LiveChat\\obj\\",
+        "outputPath": "C:\\Users\\Alan Visnovezky\\Desktop\\Git\\LiveChat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alan Visnovezky\\AppData\\Roaming\\NuGet\\NuGet.Config",
